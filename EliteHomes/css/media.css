@@ -1,0 +1,106 @@
+@media screen and (min-width:1200px) {
+    .hero-title h1 {
+        font-size: 3.75rem;
+    }
+
+    .collection-header h2 {
+        font-size: 3rem;
+    }
+
+    .tap-image {
+        padding-inline: 0;
+    }
+
+    .drop-style {
+        position: absolute !important;
+        top: 935% !important;
+        left: -84% !important;
+        transform: translate(-50%, -50%);
+        width: 1250px;
+        padding: 24px;
+        height: auto !important;
+        border: none;
+        max-height: unset;
+        overflow-y: unset;
+        overflow-x: unset;
+    }
+
+    .location-item {
+        h5 {
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            font-size: 14px;
+            color: #DDD6FF;
+            margin: 0;
+        }
+
+        cursor: pointer;
+    }
+
+    .drop-style .size-h4 h4 {
+        font-size: 1.125rem;
+        color: #101828;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    .navbar-nav>li::after {
+        content: "";
+        width: 0;
+        height: 3px;
+        bottom: 11%;
+        left: 2%;
+        position: absolute;
+        background-color: #7f22fe;
+        transition: all 0.5s;
+    }
+
+    .navbar-nav>li:hover {
+        a {
+            color: #7f22fe;
+        }
+
+        &::after {
+            width: 100%;
+        }
+
+    }
+
+    #navbar .nav-link:not(.dropdown-toggle)::after {
+        content: "";
+        width: 0;
+        height: 3px;
+        bottom: 11%;
+        left: 2%;
+        position: absolute;
+        background-color: #7f22fe;
+        transition: all 0.5s;
+
+    }
+
+    #navbar .nav-link.active {
+
+        color: #7f22fe !important;
+        transition: all 0.5s;
+
+        &::after {
+            width: 100%;
+        }
+    }
+
+    .navbar-nav>li {
+        margin-inline: 16px;
+        font-weight: 500;
+        position: relative;
+        transition: all 0.5s;
+
+        a {
+            color: #314158;
+        }
+    }
+}
